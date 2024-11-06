@@ -1,0 +1,22 @@
+.about {
+    background-position: center; /* Center the image */
+    padding: 100px; /* Adjust padding as needed */
+    color: black; /* Text color for better visibility */
+  }
+  
+  .about h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional text shadow for better visibility */
+  }
+  
+  .about-images {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space images evenly */
+    margin-top: 20px; /* Space between text and images */
+  }
+  
+  .about-images img {
+    width: 30%; /* Adjust width as necessary */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+  }
+  

@@ -1,0 +1,23 @@
+.book-now-btn {
+    padding: 12px 24px; /* Increased padding for a larger button */
+    font-size: 18px; /* Larger font size */
+    font-style:inherit;
+    font-family: sans-serif;
+    background-color: brown; /* Bootstrap primary color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.2s; /* Smooth background transition and scaling */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  }
+
+  .book-now-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Scale up on hover for effect */
+  }
+
+  .book-now-btn:focus {
+    outline: none; /* Remove default outline on focus */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Add focus outline */
+  }

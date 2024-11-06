@@ -1,0 +1,76 @@
+/* Signup.css */
+
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.login {
+  max-width: 400px; /* Max width for the form container */
+  margin: 50px auto; /* Centering the container vertically */
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Center and style the input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 8px; /* Reduced padding for smaller size */
+  margin: 10px auto; /* Centering the input boxes with auto margins */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px; /* Smaller font size */
+  width: 90%; /* Make input boxes responsive */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 10px auto; /* Center the submit button */
+  width: 90%; /* Match the width of input fields */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+p {
+  text-align: center;
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Ensure everything stays inside the login box */
+.login > * {
+  margin: 10px 0; /* Add vertical spacing between elements */
+}

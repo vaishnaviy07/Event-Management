@@ -1,0 +1,21 @@
+/* QRCodePage.css */
+
+.qr-code-page {
+  text-align:end;
+  padding: 20px;
+}
+
+.qr-code-page h2 {
+  margin-bottom: 50px;
+}
+
+.qr-code-page p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.qr-code {
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  margin: 0 auto; /* Center the QR code */
+}
